@@ -1,5 +1,5 @@
-####################################
-AutoScriptXray
+
+# AutoScriptXray
 ```
 sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl unzip && wget https://install.givpn.my.id/AutoScriptXray.sh && chmod +x AutoScriptXray.sh && sed -i -e 's/\r$//' AutoScriptXray.sh && screen -S setup ./AutoScriptXray.sh
 ```
@@ -25,8 +25,8 @@ Service & Port
 - Trojan gRPC              : 443<br>
 - Shadowsocks gRPC         : 443<br>
 <br>
-####################################
-autoset
+
+# autoset
 ```
 rm -f autoset.sh && apt update && apt upgrade -y && update-grub && sleep 2 && apt-get update -y && apt-get upgrade && sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl unzip && wget https://install.givpn.my.id/autoset.sh && chmod +x autoset.sh && sed -i -e 's/\r$//' autoset.sh && screen -S setup ./autoset.sh
 ```
