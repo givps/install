@@ -110,6 +110,7 @@ bash -c "$(curl -fsSL https://install.givpn.my.id/aio)"
 [![Telegram-chat](https://img.shields.io/badge/Chat-Telegram-blue)](https://t.me/givpn/)
 [![Telegram-grup](https://img.shields.io/badge/Grup-Telegram-blue)](https://t.me/givpn_grup)
 
+YOUR DONATION MAKES ME EXCITED TO LIVE THIS BORING LIFE
 # Buy me coffe
 [![Saweria donate button](https://img.shields.io/badge/Donate-Saweria-red)](https://saweria.co/givpn11)
 [![Ko-fi donate button](https://img.shields.io/badge/Donate-Ko--fi-red)](https://ko-fi.com/givpn11)
