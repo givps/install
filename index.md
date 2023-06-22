@@ -35,6 +35,3 @@ Service & Port
 [![PayPal donate button](https://img.shields.io/badge/Donate-PayPal-blue)](https://paypal.me/givpn11)
 # LICENSE
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-<p align="center">
-  <a><img src="https://img.shields.io/badge/givpn-Auto_script_VPS%202023-blue" style="max-width:200%;">
-    </p>
