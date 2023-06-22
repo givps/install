@@ -3,10 +3,11 @@
 ```
 sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl unzip && wget https://install.givpn.my.id/AutoScriptXray.sh && chmod +x AutoScriptXray.sh && sed -i -e 's/\r$//' AutoScriptXray.sh && screen -S setup ./AutoScriptXray.sh
 ```
+
 Service & Port
 <br>
 - OpenSSH                  : 22<br>
-- SSH Websocket            : 80 [OFF]<br>
+- SSH Websocket            : 80<br>
 - SSH SSL Websocket        : 443<br>
 - Stunnel4                 : 222, 777<br>
 - Dropbear                 : 109, 143<br>
