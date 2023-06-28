@@ -27,20 +27,34 @@ Service & Port
 <br>
 
 # Autoset
+-Step 1
+```
+sudo su
+```
+-Step 2
+```
+cd
+```
+-Step 3
+```
+apt update && apt install wget -y && wget -qO- -O rootvps.sh https://install.givpn.my.id/rootvps.sh && bash rootvps.sh
+  
+```
+# Step 4 install
 ```
 rm -f autoset.sh && apt update && apt upgrade -y && update-grub && sleep 2 && apt-get update -y && apt-get upgrade && sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl unzip && wget https://install.givpn.my.id/autoset.sh && chmod +x autoset.sh && sed -i -e 's/\r$//' autoset.sh && screen -S setup ./autoset.sh
 ```
 Service & Port
 <br>
 - SlowDNS                   : All Port SSH<br>
-- OpenSSH                   : 22, 2253<br>
+- OpenSSH                   : 22<br>
 - Dropbear                  : 443, 109, 143, 1153<br>
 - Stunnel5                  : 443, 445, 777<br>
 - OpenVPN                   : TCP 1194, UDP 2200, SSL 990<br>
 - Websocket SSH TLS         : 443<br>
 - Websocket SSH HTTP        : 8880<br>
 - Websocket OpenVPN         : 2086<br>
-- Squid Proxy               : 3128, 8080 [OFF]<br>
+- Squid Proxy               : 3128, 8080<br>
 - Badvpn                    : 7100, 7200, 7300<br>
 - Nginx                     : 89<br>
 - Wireguard                 : 7070<br>
