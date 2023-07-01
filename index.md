@@ -200,3 +200,8 @@ YOUR DONATION MAKES ME EXCITED TO LIVE THIS BORING LIFE
   <a><img src="https://img.shields.io/badge/givpn-Auto_script_VPS%202023-blue" style="max-width:200%;">
     </p>
    </p>
+<p align="center">
+  <a><img src="https://img.shields.io/badge/Attention_this_is_free_to_use_not_for_sale%20-blue" style="max-width:200%;">
+    </p>
+   </p>
+   
