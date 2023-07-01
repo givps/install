@@ -1,3 +1,8 @@
+<p align="center">
+  <a><img src="https://img.shields.io/badge/givpn-Auto_script_VPS%202023-blue" style="max-width:200%;">
+<p align="center">
+  <a><img src="https://img.shields.io/badge/Attention_this_is_free_to_use_not_for_sale%20-blue" style="max-width:200%;">
+    
 # AutoScriptXray
 ```
 sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl unzip && wget https://install.givpn.my.id/AutoScriptXray.sh && chmod +x AutoScriptXray.sh && sed -i -e 's/\r$//' AutoScriptXray.sh && screen -S setup ./AutoScriptXray.sh
