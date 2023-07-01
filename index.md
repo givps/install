@@ -120,6 +120,71 @@ bash -c "$(curl -fsSL https://install.givpn.my.id/aio)"
 | HTTPS  | 2053, 2083, 2087, 2096, 8443 |
 | HTTP  | 8080, 8880, 2052, 2082, 2086, 2095 |
 
+# aioV2 revision beta test
+# Create root on the VPS for those of you who log into the server still using a username that isn't root
+- Step 1
+  ```
+  sudo su
+  ```
+- Step 2
+   ```
+   cd
+   ```
+- Step 3
+  ```
+  apt update && apt install wget -y && apt upgrade -y && apt dist-upgrade -y && wget -qO- -O rootvps.sh https://raw.githubusercontent.com/givpn/aioV2/master/rootvps.sh && bash rootvps.sh
+  ```
+## Step 4 Install
+
+  ```
+  sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl && wget https://install.givpn.my.id/aioV2.sh && chmod +x aioV2.sh && sed -i -e 's/\r$//' aioV2.sh && screen -S setup ./aioV2.sh
+  ```
+# Service & Port:
+<br>
+  - OpenSSH                      : 22<br>
+  - OpenVPN                      : TCP 1194, UDP 2200, SSL 110<br>
+  - Stunnel4                     : 222, 777<br>
+  - Dropbear                     : 143, 109<br>
+  - OHP Dropbear                 : 8585<br>
+  - OHP SSH                      : 8686<br>
+  - OHP OpenVPN                  : 8787<br>
+  - Websocket SSH(HTTP)          : 80<br>
+  - Websocket SSL(HTTPS)         : 443, 2096<br>
+  - Websocket OpenVPN            : 2097<br>
+  - SSH UDP                      : 1-65535<br>
+  - Squid Proxy                  : 3128, 8000<br>
+  - Badvpn                       : 7100, 7200, 7300<br>
+  - Nginx                        : 81<br>
+  - XRAY Vmess Ws Tls            : 443<br>
+  - XRAY Vless Ws Tls            : 443<br>
+  - XRAY Trojan Ws Tls           : 443<br>
+  - XRAY Socks5 Ws Tls           : 443<br>
+  - XRAY Shadowsocks Ws Tls      : 443<br>
+  - XRAY Vless Tcp Xtls          : 443<br>
+  - XRAY Trojan Tcp Tls          : 443<br>
+  - XRAY Vmess Ws None Tls       : 80<br>
+  - XRAY Vless Ws None Tls       : 80<br>
+  - XRAY Trojan Ws None Tls      : 80<br>
+  - XRAY Socks5 Ws None Tls      : 80<br>
+  - XRAY Shadowsocks Ws None Tls : 80<br>
+<br>
+# Server Information & Other Features:
+<br>
+   - Timezone                 : Asia/Jakarta (GMT +7)<br>
+   - Fail2Ban                 : [ON]<br>
+   - DDOS Dflate              : [ON]<br>
+   - IPtables                 : [ON]<br>
+   - Auto-Reboot              : [ON]- 01.00 GMT +7<br>
+   - Auto-Remove-Expired      : [ON]<br>
+   - IPv6                     : [OFF]<br>
+   - Auto Delete Expired Account<br>
+   - Fully automatic<br>
+   - VPS settings<br>
+   - Admin Control<br>
+   - Change port<br>
+   - Full Orders For Various Services<br>
+<br>
+
 # Telegram
 [![Telegram-chat](https://img.shields.io/badge/Chat-Telegram-blue)](https://t.me/givpn/)
 [![Telegram-grup](https://img.shields.io/badge/Grup-Telegram-blue)](https://t.me/givpn_grup)
