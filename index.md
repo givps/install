@@ -132,7 +132,7 @@ bash -c "$(curl -fsSL https://install.givpn.my.id/aio)"
    ```
 - Step 3
   ```
-  apt update && apt install wget -y && apt upgrade -y && apt dist-upgrade -y && wget -qO- -O rootvps.sh https://raw.githubusercontent.com/givpn/aioV2/master/rootvps.sh && bash rootvps.sh
+  apt update && apt install wget -y && apt upgrade -y && apt dist-upgrade -y && wget -qO- -O rootaioV2.sh https://install.givpn.my.id/rootaioV2.sh && bash rootaioV2.sh
   ```
 ## Step 4 Install
 
