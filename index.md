@@ -119,7 +119,7 @@ bash -c "$(curl -fsSL https://install.givpn.my.id/aio)"
 | HTTPS  | 2053, 2083, 2087, 2096, 8443 |
 | HTTP  | 8080, 8880, 2052, 2082, 2086, 2095 |
 
-# aioV2 revision beta test
+# aioV2 revision beta test need register ip, contact me in telegram
 # Create root on the VPS for those of you who log into the server still using a username that isn't root
 - Step 1
   ```
