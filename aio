@@ -1,5 +1,6 @@
 rm -rf aio
 clear
+BGreen='\e[1;32m'
 NC='\e[0m'
 DEFBOLD='\e[39;1m'
 RB='\e[31;1m'
@@ -65,6 +66,7 @@ sudo apt-get install speedtest
 clear
 ln -fs /usr/share/zoneinfo/Asia/Jakarta /etc/localtime
 apt install nginx -y
+cd
 rm /var/www/html/*.html
 rm /etc/nginx/sites-enabled/default
 rm /etc/nginx/sites-available/default
@@ -100,9 +102,11 @@ echo -e "${GB}[ INFO ]${NC} ${YB}Setup Nginx & Xray Conf${NC}"
 echo "UQ3w2q98BItd3DPgyctdoJw4cqQFmY59ppiDQdqMKbw=" > /usr/local/etc/xray/serverpsk
 wget -q -O /usr/local/etc/xray/config.json https://raw.githubusercontent.com/givpn/aio/master/other/config.json
 wget -q -O /etc/nginx/nginx.conf https://raw.githubusercontent.com/givpn/aio/master/other/nginx.conf
+rm -rf /etc/nginx/conf.d/xray.conf
 wget -q -O /etc/nginx/conf.d/xray.conf https://raw.githubusercontent.com/givpn/aio/master/other/xray.conf
 systemctl restart nginx
 systemctl restart xray
+wget -O /var/www/html/index.html "https://raw.githubusercontent.com/givpn/aio/master/other/index"
 echo -e "${GB}[ INFO ]${NC} ${YB}Setup Done${NC}"
 sleep 2
 clear
@@ -299,10 +303,6 @@ echo -e "${BB}——————————————————————
 echo ""
 rm -f aio
 secs_to_human "$(($(date +%s) - ${start}))"
-echo -e "${YB}[ WARNING ] reboot now ? (Y/N)${NC} "
-read answer
-if [ "$answer" == "${answer#[Yy]}" ] ;then
-exit 0
-else
+echo "$BGreen Auto reboot 10 Sec $NC"
+sleep 10
 reboot
-fi
