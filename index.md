@@ -1,6 +1,7 @@
 # AutoScriptXray
+- install
 ```
-sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl unzip && wget https://install.givpn.my.id/AutoScriptXray.sh && chmod +x AutoScriptXray.sh && sed -i -e 's/\r$//' AutoScriptXray.sh && screen -S setup ./AutoScriptXray.sh
+sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl unzip && wget https://install.givpn.my.id/AutoScriptXray.sh && chmod +x AutoScriptXray.sh && sed -i -e 's/\r$//' AutoScriptXray.sh && screen -S AutoScriptXray ./AutoScriptXray.sh
 ```
 Service & Port
 <br>
@@ -26,22 +27,9 @@ Service & Port
 <br>
 
 # Autoset
--Step 1
+- install
 ```
-sudo su
-```
--Step 2
-```
-cd
-```
--Step 3
-```
-apt update && apt install wget -y && wget -qO- -O rootvps.sh https://install.givpn.my.id/rootvps.sh && bash rootvps.sh
-  
-```
-# Step 4 install
-```
-rm -f autoset.sh && apt update && apt upgrade -y && update-grub && sleep 2 && apt-get update -y && apt-get upgrade && sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl unzip && wget https://install.givpn.my.id/autoset.sh && chmod +x autoset.sh && sed -i -e 's/\r$//' autoset.sh && screen -S setup ./autoset.sh
+rm -f autoset.sh && apt update && apt upgrade -y && update-grub && sleep 2 && apt-get update -y && apt-get upgrade && sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl unzip && wget https://install.givpn.my.id/autoset.sh && chmod +x autoset.sh && sed -i -e 's/\r$//' autoset.sh && screen -S autoset ./autoset.sh
 ```
 Service & Port
 <br>
@@ -121,22 +109,10 @@ bash -c "$(curl -fsSL https://install.givpn.my.id/aio)"
 
 # aioV2 revision beta test need register ip, contact me in telegram
 # Create root on the VPS for those of you who log into the server still using a username that isn't root
-- Step 1
-  ```
-  sudo su
-  ```
-- Step 2
-   ```
-   cd
-   ```
-- Step 3
-  ```
-  apt update && apt install wget -y && apt upgrade -y && apt dist-upgrade -y && wget -qO- -O rootaioV2.sh https://install.givpn.my.id/rootaioV2.sh && bash rootaioV2.sh
-  ```
-## Step 4 Install
+- Install
 
   ```
-  sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl && wget https://install.givpn.my.id/aioV2.sh && chmod +x aioV2.sh && sed -i -e 's/\r$//' aioV2.sh && screen -S setup ./aioV2.sh
+  sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl && wget https://install.givpn.my.id/aioV2.sh && chmod +x aioV2.sh && sed -i -e 's/\r$//' aioV2.sh && screen -S aioV2 ./aioV2.sh
   ```
 # Service & Port:
 <br>
