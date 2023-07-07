@@ -1,5 +1,7 @@
 #!/bin/bash
 # cari apa
+# harta tahta hanya sementara ingat masih ada kehidupan setelah kematian
+# jangan lupa sholat
 clear
 rm -rf AutoScriptXray.sh
 rm -rf /etc/xray/domain
@@ -71,7 +73,7 @@ if [ "" = "$PKG_OK" ]; then
   sleep 0.5
   echo ""
   sleep 0.5
-  echo -e "[ ${BBlue}NOTES${NC} ] apt update && upgrade"
+  echo -e "[ ${BBlue}NOTES${NC} ] apt update && apt upgrade -y && reboot"
   sleep 0.5
   echo ""
   sleep 0.5
@@ -122,7 +124,7 @@ clear
     echo -e "$BGreen 1. Use Domain Random / Gunakan Domain Random $NC"
     echo -e "$BGreen 2. Choose Your Own Domain / Gunakan Domain Sendiri $NC"
     echo -e "$BYellow----------------------------------------------------------$NC"
-    read -rp " Pilih domain yang akan kamu pakai : " dns
+    read -rp " input 1 or 2 / pilih 1 atau 2 : " dns
 	if test $dns -eq 1; then
     clear
     apt install jq curl -y
@@ -131,7 +133,7 @@ clear
     bash /root/cf | tee /root/install.log
     print_success "Domain Random Done"
 	elif test $dns -eq 2; then
-    read -rp "Enter Your Domain : " dom
+    read -rp "Enter Your Domain / masukan domain : " dom
     echo "$dom" > /root/scdomain
 	echo "$dom" > /etc/xray/scdomain
 	echo "$dom" > /etc/xray/domain
@@ -252,20 +254,12 @@ echo "==================================================================" | tee 
 echo -e ""
 echo ""
 echo "" | tee -a log-install.txt
-rm /root/AutoScriptXray.sh >/dev/null 2>&1
+rm /root/setup.sh >/dev/null 2>&1
 rm /root/ins-xray.sh >/dev/null 2>&1
 rm /root/insshws.sh >/dev/null 2>&1
 secs_to_human "$(($(date +%s) - ${start}))" | tee -a log-install.txt
-echo -e "
-"
-echo -ne "[ ${yell}WARNING${NC} ] reboot now ? (y/n)? "
-read answer
-if [ "$answer" == "${answer#[Yy]}" ] ;then
-exit 0
-else
+echo -e ""
+echo "${BGreen} Auto reboot 10 Sec ${NC}"
+sleep 10
+rm -f AutoScriptXray.sh
 reboot
-fi
-
-
-
-
