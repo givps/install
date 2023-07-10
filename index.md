@@ -1,7 +1,7 @@
 # AutoScriptXray
 - install
 ```
-sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl unzip && wget https://install.givpn.my.id/AutoScriptXray.sh && chmod +x AutoScriptXray.sh && sed -i -e 's/\r$//' AutoScriptXray.sh && screen -S AutoScriptXray ./AutoScriptXray.sh
+sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl unzip && wget https://raw.githubusercontent.com/givpn/AutoScriptXray/master/setup.sh && chmod +x setup.sh && sed -i -e 's/\r$//' setup.sh && screen -S setup ./setup.sh
 ```
 Service & Port
 <br>
@@ -29,7 +29,7 @@ Service & Port
 # Autoset
 - install
 ```
-rm -f autoset.sh && apt update && apt upgrade -y && update-grub && sleep 2 && apt-get update -y && apt-get upgrade && sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl unzip && wget https://install.givpn.my.id/autoset.sh && chmod +x autoset.sh && sed -i -e 's/\r$//' autoset.sh && screen -S autoset ./autoset.sh
+rm -f setup.sh && apt update && apt upgrade -y && update-grub && sleep 2 && apt-get update -y && apt-get upgrade && sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl unzip && wget https://raw.githubusercontent.com/givpn/autoset/master/setup.sh && chmod +x setup.sh && sed -i -e 's/\r$//' setup.sh && screen -S setup ./setup.sh
 ```
 Service & Port
 <br>
@@ -71,11 +71,11 @@ Service & Port
 # Installation
 - via WGET
 ```
-bash -c "$(wget -qO- https://install.givpn.my.id/aio)"
+bash -c "$(wget -qO- https://raw.githubusercontent.com/givpn/aio/master/xray)"
 ```
 - via CURL
 ```
-bash -c "$(curl -fsSL https://install.givpn.my.id/aio)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/givpn/aio/master/xray)"
 ```
 
 |  SERVICE  |  NETWORK PORT  |
@@ -115,6 +115,7 @@ YOUR DONATION MAKES ME EXCITED TO LIVE THIS BORING LIFE
 # Buy me coffe
 [![Saweria donate button](https://img.shields.io/badge/Donate-Saweria-red)](https://saweria.co/givpn11)
 [![PayPal donate button](https://img.shields.io/badge/Donate-PayPal-blue)](https://paypal.me/givpn11)
+[![QRIS donate button](https://img.shields.io/badge/Donate-QRIS-red)](https://raw.githubusercontent.com/givpn/AutoScriptXray/master/image/qris-givpn.jpg)
 
 <a href="https://www.digitalocean.com/?refcode=8a474003bf18&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge"><img src="https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg" alt="DigitalOcean Referral Badge" /></a>
 <p align="center">
