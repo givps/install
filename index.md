@@ -1,3 +1,9 @@
+# NOTE
+<p align="center">
+  <b><a >make sure the vps provider allows the use of Public VPN/SSH/Proxy</a></b><br>
+  <b><a >Required VPS is still fresh (MUST) / have never installed anything</a></b><br>
+  <b><a >If you install the Script twice, you need to rebuild the VPS to factory settings, in the VPS provider panel</a></b><br>
+
 # AutoScriptXray
 [![repo](https://img.shields.io/badge/repo-AutoScriptXray-blue)](https://github.com/givpn/AutoScriptXray)
 - install
