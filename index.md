@@ -123,7 +123,6 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/givpn/aio/master/xray)"
 
 YOUR DONATION MAKES ME EXCITED TO LIVE THIS BORING LIFE
 # Buy me coffe
-[![Saweria donate button](https://img.shields.io/badge/Donate-Saweria-red)](https://saweria.co/givpn11)
 [![PayPal donate button](https://img.shields.io/badge/Donate-PayPal-blue)](https://paypal.me/givpn11)
 [![QRIS donate button](https://img.shields.io/badge/Donate-QRIS-red)](https://raw.githubusercontent.com/givpn/AutoScriptXray/master/image/qris-givpn.jpg)
 
