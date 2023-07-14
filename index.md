@@ -119,7 +119,7 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/givpn/aio/master/xray)"
 
 # Telegram
 [![Telegram-chat](https://img.shields.io/badge/Chat-Telegram-blue)](https://t.me/givpn/)
-[![Telegram-grup](https://img.shields.io/badge/Grup-Telegram-blue)](https://t.me/givpn_grup)
+[![Telegram-grup](https://img.shields.io/badge/Grup-Telegram-blue)](https://t.me/givpn11/)
 
 YOUR DONATION MAKES ME EXCITED TO LIVE THIS BORING LIFE
 # Buy me coffe
