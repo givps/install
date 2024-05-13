@@ -75,8 +75,6 @@ Service & Port
 
 # Aio
 [![repo](https://img.shields.io/badge/repo-Aio-blue)](https://github.com/givpn/aio)
-# Setup DNS Cloudflare
-![cf](https://raw.githubusercontent.com/dugong-lewat/autoscript/main/cf.jpg)
 
 # Installation
 - via WGET
