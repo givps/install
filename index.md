@@ -116,7 +116,7 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/givpn/aio/master/xray)"
 | HTTP  | 8080, 8880, 2052, 2082, 2086, 2095 |
 
 # Telegram
-[![Telegram](https://img.shields.io/badge/Telegram-blue)](https://t.me/givpn_grup/)
+[![Telegram](https://img.shields.io/badge/Telegram-Grup-blue)](https://t.me/givpn_grup/)
 
 YOUR DONATION MAKES ME EXCITED TO LIVE THIS BORING LIFE
 # Buy me coffe
