@@ -127,9 +127,7 @@ YOUR DONATION MAKES ME EXCITED TO LIVE THIS BORING LIFE
 
 <!-- <a href="https://www.digitalocean.com/?refcode=8a474003bf18&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge"><img src="https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg" alt="DigitalOcean Referral Badge" /></a> -->
 <p align="center">
-<a href="https://opensource.org/licenses/MIT"> <img src="https://img.shields.io/badge/License-MIT-yellow.svg" style="max-width:200%;">
-<p align="center">
-  <a><img src="https://img.shields.io/badge/Auto_Script_VPS-blue" style="max-width:200%;">
+<a href="https://opensource.org/licenses/MIT"> <img src="https://img.shields.io/badge/License-MIT-yellow.svg" style="max-width:200%;"> <a><img src="https://img.shields.io/badge/Auto_Script_VPS-blue" style="max-width:200%;">
 <p align="center">
   <a><img src="https://img.shields.io/badge/Attention_this_is_free_to_use_not_for_sale%20-critical" style="max-width:200%;">
   
