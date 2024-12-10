@@ -73,7 +73,6 @@ Service & Port
 - TrojanGo                : 2087<br>
 <br>
 
-
 # Telegram
 [![Telegram](https://img.shields.io/badge/Telegram-Grup-blue)](https://t.me/givpn_grup/)
 
