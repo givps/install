@@ -120,16 +120,16 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/givpn/aio/master/xray)"
 
 YOUR DONATION MAKES ME EXCITED TO LIVE THIS BORING LIFE
 # Buy me coffe
-[![PayPal donate button](https://img.shields.io/badge/Donate-PayPal-yellow)](https://paypal.me/givpn11)
+<!--[![PayPal donate button](https://img.shields.io/badge/Donate-PayPal-yellow)](https://paypal.me/givpn11)
 [![QRIS donate button](https://img.shields.io/badge/Donate-QRIS-red)](https://raw.githubusercontent.com/givpn/AutoScriptXray/master/image/qris-givpn.jpg)
-[![Bitcoin donate button](https://img.shields.io/badge/Donate-Bitcoin-orange)](https://www.blockchain.com/explorer/addresses/btc/3BE1deCJcuykuTHMzmrmNYgN51E24Hix8i)
+[![Bitcoin donate button](https://img.shields.io/badge/Donate-Bitcoin-orange)](https://www.blockchain.com/explorer/addresses/btc/3BE1deCJcuykuTHMzmrmNYgN51E24Hix8i)-->
 [![Ethereum donate button](https://img.shields.io/badge/Donate-Ethereum-blue)](https://www.blockchain.com/explorer/addresses/eth/0x3eb09df9a72e8e333e202116ff3eb348b3ebf554)
 
 <!-- <a href="https://www.digitalocean.com/?refcode=8a474003bf18&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge"><img src="https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg" alt="DigitalOcean Referral Badge" /></a> -->
 <p align="center">
 <a href="https://opensource.org/licenses/MIT"> <img src="https://img.shields.io/badge/License-MIT-yellow.svg" style="max-width:200%;">
 <p align="center">
-  <a><img src="https://img.shields.io/badge/givpn-Auto_script_VPS%202023-blue" style="max-width:200%;">
+  <a><img src="https://img.shields.io/badge/Auto_Script_VPS-blue" style="max-width:200%;">
 <p align="center">
   <a><img src="https://img.shields.io/badge/Attention_this_is_free_to_use_not_for_sale%20-critical" style="max-width:200%;">
   
