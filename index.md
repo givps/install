@@ -79,9 +79,11 @@ Service & Port
 
 # Telegram
 [![Telegram](https://img.shields.io/badge/Telegram-Grup-blue)](https://t.me/givpn_grup/)
+# Github Discussions
+[![Telegram](https://img.shields.io/badge/Github-Discussions-blue)](https://github.com/orgs/givps/discussions)
 
 YOUR DONATION MAKES ME EXCITED TO LIVE THIS BORING LIFE
-# Buy me coffe
+# Donate
 <!--[![PayPal donate button](https://img.shields.io/badge/Donate-PayPal-yellow)](https://paypal.me/givpn11)
 [![QRIS donate button](https://img.shields.io/badge/Donate-QRIS-red)](https://raw.githubusercontent.com/givpn/AutoScriptXray/master/image/qris-givpn.jpg)
 [![Bitcoin donate button](https://img.shields.io/badge/Donate-Bitcoin-orange)](https://www.blockchain.com/explorer/addresses/btc/3BE1deCJcuykuTHMzmrmNYgN51E24Hix8i)-->
