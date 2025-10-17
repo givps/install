@@ -7,15 +7,15 @@
 
 # AutoScriptXray
 [![repo](https://img.shields.io/badge/repo-AutoScriptXray-blue)](https://github.com/givps/AutoScriptXray)
-- Step 1 for (debian) please update first
+- Stunnel version
 ```
-apt update && apt upgrade -y && reboot
+apt update && apt upgrade -y && apt autoremove -y && reboot
 ```
-- Step 2 for (ubuntu) directly install
 ```
 sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl unzip && wget https://raw.githubusercontent.com/givps/AutoScriptXray/master/setup.sh && chmod +x setup.sh && sed -i -e 's/\r$//' setup.sh && screen -S setup ./setup.sh
 ```
-Service & Port
+
+# Service & Port Stunnel version
 <br>
 - OpenSSH                  : 22<br>
 - SSH Websocket            : 80<br>
@@ -38,6 +38,37 @@ Service & Port
 - Shadowsocks gRPC         : 443<br>
 <br>
 
+
+- HAProxy version
+```
+apt update && apt upgrade -y && apt autoremove -y && reboot
+```
+```
+sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl unzip && wget https://raw.githubusercontent.com/givps/AutoScriptXray/master/haproxy/setup/setup.sh && chmod +x setup.sh && sed -i -e 's/\r$//' setup.sh && screen -S setup ./setup.sh
+```
+
+# Service & Port HAProxy version
+<br>
+- OpenSSH                  : 22, 2222<br>
+- SSH/SSL                  : 1445, 1446<br>
+- HAProxy SSH SSL WS       : 1443<br>
+- HAProxy SSH WS           : 1444<br>
+- Badvpn                   : 7100-7900<br>
+- Nginx                    : 80<br>
+- Vmess WS TLS             : 443<br>
+- Vless WS TLS             : 443<br>
+- Trojan WS TLS            : 443<br>
+- Shadowsocks WS TLS       : 443<br>
+- Vmess WS none TLS        : 80<br>
+- Vless WS none TLS        : 80<br>
+- Trojan WS none TLS       : 80<br>
+- Shadowsocks WS none TLS  : 80<br>
+- Vmess gRPC               : 443<br>
+- Vless gRPC               : 443<br>
+- Trojan gRPC              : 443<br>
+- Shadowsocks gRPC         : 443<br>
+<br>
+<!--
 # Autoset
 [![repo](https://img.shields.io/badge/repo-Autoset-blue)](https://github.com/givps/autoset)
 - install
@@ -75,19 +106,16 @@ Service & Port
 - OHP Dropbear            : 8282<br>
 - OHP OpenVPN             : 8383<br>
 - TrojanGo                : 2087<br>
-<br>
+<br>-->
 
 # Telegram
-[![Telegram](https://img.shields.io/badge/Telegram-Grup-blue)](https://t.me/givpn_grup/)
-# Github Discussions
-[![Telegram](https://img.shields.io/badge/Github-Discussions-blue)](https://github.com/orgs/givps/discussions)
+[![Telegram](https://img.shields.io/badge/telegram-blue)](https://t.me/givpn_grup/)
 
-YOUR DONATION MAKES ME EXCITED TO LIVE THIS BORING LIFE
 # Donate
 <!--[![PayPal donate button](https://img.shields.io/badge/Donate-PayPal-yellow)](https://paypal.me/givpn11)
 [![QRIS donate button](https://img.shields.io/badge/Donate-QRIS-red)](https://raw.githubusercontent.com/givpn/AutoScriptXray/master/image/qris-givpn.jpg)
 [![Bitcoin donate button](https://img.shields.io/badge/Donate-Bitcoin-orange)](https://www.blockchain.com/explorer/addresses/btc/3BE1deCJcuykuTHMzmrmNYgN51E24Hix8i)-->
-[![Ethereum donate button](https://img.shields.io/badge/Donate-Ethereum-blue)](https://www.blockchain.com/explorer/addresses/eth/0xb35631b4105a51182f661f6d6eeae8B57E2F2EC1)
+[![allEVM donate button](https://img.shields.io/badge/Donate-allEVM-blue)](https://www.blockchain.com/explorer/addresses/eth/0xa7431b95bbd425303812b610626a4e784551cdab)
 
 <!-- <a href="https://www.digitalocean.com/?refcode=8a474003bf18&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge"><img src="https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg" alt="DigitalOcean Referral Badge" /></a> -->
 <p align="center">
