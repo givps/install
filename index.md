@@ -109,7 +109,7 @@ Service & Port
 <br>-->
 
 # Telegram
-[![Telegram](https://img.shields.io/badge/telegram-blue)](https://t.me/givpn_grup/)
+[![Telegram](https://img.shields.io/badge/telegram-blue)](https://t.me/givps_com)
 
 # Donate
 <!--[![PayPal donate button](https://img.shields.io/badge/Donate-PayPal-yellow)](https://paypal.me/givpn11)
